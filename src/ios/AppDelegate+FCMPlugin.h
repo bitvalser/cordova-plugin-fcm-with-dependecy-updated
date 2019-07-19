@@ -11,7 +11,7 @@
 #import <Cordova/CDVViewController.h>
 
 @interface AppDelegate (FCMPlugin)
-
++ (void)register_for_notifications;
 + (NSData*)getLastPush;
 
 @end
